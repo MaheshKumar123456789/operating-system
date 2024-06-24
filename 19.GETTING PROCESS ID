@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<unistd.h>
+int main()
+{
+	printf("processid: %d\n",getpid());
+	printf("parent process id: %d\n",getpid());
+	return 0;
+}
+1 comment on commit 0394317
